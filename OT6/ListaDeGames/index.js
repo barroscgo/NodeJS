@@ -35,5 +35,8 @@ app.post('/novogame', (req, res) =>{
     console.log(studio);
     console.log(price);
 
+    let newGame = {title, studio, price}
+    //para enviar estes dados para o array aogra utilizamos o metodo push do js
+    games.push(newGame);
     res.send("OK");
 });
