@@ -26,7 +26,7 @@ app.get('/', (req, res) =>{
     res.json(games);
 });
 
-app.post("/novogame", (req, res) =>{
+app.post('/novogame', (req, res) =>{
     let title = req.body.title;
     let studio = req.body.studio;
     let price = req.body.price;
