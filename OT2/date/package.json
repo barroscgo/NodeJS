@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "moment": "^2.30.1"
+  },
+  "name": "date",
+  "version": "1.0.0",
+  "main": "dates.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
